@@ -1,5 +1,8 @@
 package pe.edu.upeu.serviceimp;
 
+import java.util.List;
+import java.util.Map;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -16,6 +19,12 @@ public class UsuarioServiceImp implements UsuarioService {
 	public Usuario read(String nomuser) {
 		// TODO Auto-generated method stub
 		return usuarioDao.read(nomuser);
+	}
+
+	@Override
+	public List<Map<String, Object>> readAll() {
+		// TODO Auto-generated method stub
+		return usuarioDao.readAll();
 	}
 
 }

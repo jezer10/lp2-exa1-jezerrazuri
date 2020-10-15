@@ -1,17 +1,17 @@
 package pe.edu.upeu.entity;
 
-public class detalle_pedido {
+public class Detalle_pedido {
 	private int iddetalle_pedido;
 	private String precio;
 	private String cantidad;
 	private int idplatos;
 	private int idpedidos;
 
-	public detalle_pedido() {
+	public Detalle_pedido() {
 		super();
 	}
 
-	public detalle_pedido(int iddetalle_pedido, String precio, String cantidad, int idplatos, int idpedidos) {
+	public Detalle_pedido(int iddetalle_pedido, String precio, String cantidad, int idplatos, int idpedidos) {
 		super();
 		this.iddetalle_pedido = iddetalle_pedido;
 		this.precio = precio;
